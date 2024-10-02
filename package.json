@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pedrojlazevedo/twitch-chatgpt.git"
+    "url": "git+https://github.com/gsg3ntertainment/twitch-chatgpt.git"
   },
-  "author": "Pedro Azevedo",
+  "author": "GSG3",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pedrojlazevedo/twitch-chatgpt/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/pedrojlazevedo/twitch-chatgpt#readme",
+  "homepage": "",
   "dependencies": {
     "cron": "^3.1.1",
     "ejs": "^3.1.9",
