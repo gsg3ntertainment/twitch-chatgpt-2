@@ -59,7 +59,7 @@ export class OpenAIOperations {
     async make_openai_call_completion(text) {
         try {
             const response = await this.openai.completions.create({
-              model: "gpt-4",
+              model: "gpt-3",
               prompt: text,
               temperature: 1,
               max_tokens: 350,
