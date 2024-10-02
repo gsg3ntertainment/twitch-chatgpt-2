@@ -16,7 +16,7 @@ services:
       - key: HISTORY_LENGTH
         value: "7"
       - key: MODEL_NAME
-        value: "gpt-4"
+        value: <model-name>
       - key: COMMAND_NAME
         value: "tazcidbot"
       - key: TWITCH_USER  # https://dev.twitch.tv/console
