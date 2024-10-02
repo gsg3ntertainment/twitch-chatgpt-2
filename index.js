@@ -20,10 +20,10 @@ app.set('view engine', 'ejs');
 // Load environment variables
 const GPT_MODE = process.env.GPT_MODE || 'CHAT';
 const HISTORY_LENGTH = process.env.HISTORY_LENGTH || 5;
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || ;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || 'sk-svcacct-KSGIegmgQSV3GG6cX2sifJm4qrl0Tb5xO9EvHaSoylttx6wOwEp1tX4a0_8hEsUJT3BlbkFJaX1ssdQp2Ywp8uoLbwK__hw8LIKyww5jN-WIACwzPbqCLviss6yrZYjzIEylTEwA';
 const MODEL_NAME = process.env.MODEL_NAME || 'gpt-3.5-turbo';
 const TWITCH_USER = process.env.TWITCH_USER || 'Tazcidbot';
-const TWITCH_AUTH = process.env.TWITCH_AUTH || 'oauth:pn3pq4bbch4ok3du2rebph6xcfixpq';
+const TWITCH_AUTH = process.env.TWITCH_AUTH || 'oauth:o1x6pzbq1gknsesxlnwa6fd4b2m4sj';
 const COMMAND_NAME = process.env.COMMAND_NAME || '!gpt';
 const CHANNELS = process.env.CHANNELS || 'Taz_C_W';
 const SEND_USERNAME = process.env.SEND_USERNAME || 'true';
