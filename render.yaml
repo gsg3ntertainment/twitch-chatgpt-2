@@ -14,20 +14,20 @@ services:
       - key: GPT_MODE
         value: "CHAT"
       - key: HISTORY_LENGTH
-        value: "3"
+        value: "7"
       - key: MODEL_NAME
         value: "gpt-4"
       - key: COMMAND_NAME
-        value: "chat"
+        value: "tazcidbot"
       - key: TWITCH_USER  # https://dev.twitch.tv/console
         value: "Tazcidbot"
       - key: TWITCH_AUTH  # https://twitchapps.com/tmi/
-        value: "oauth:pn3pq4bbch4ok3du2rebph6xcfixpq"
+        value: <your-twitch-auth>
       - key: SEND_USERNAME
         value: "true"
       - key: ENABLE_TTS
-        value: "false"
+        value: "true"
       - key: ENABLE_CHANNEL_POINTS
-        value: "false"
+        value: "true"
       - key: COOLDOWN_DURATION
         value: "10"
