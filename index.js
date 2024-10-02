@@ -20,7 +20,7 @@ app.set('view engine', 'ejs');
 // Load environment variables
 const GPT_MODE = process.env.GPT_MODE;
 const HISTORY_LENGTH = process.env.HISTORY_LENGTH;
-const OPENAI_API_KEY = 'sk-svcacct-KSGIegmgQSV3GG6cX2sifJm4qrl0Tb5xO9EvHaSoylttx6wOwEp1tX4a0_8hEsUJT3BlbkFJaX1ssdQp2Ywp8uoLbwK__hw8LIKyww5jN-WIACwzPbqCLviss6yrZYjzIEylTEwA';
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const MODEL_NAME = process.env.MODEL_NAME;
 const TWITCH_USER = process.env.TWITCH_USER;
 const TWITCH_AUTH = process.env.TWITCH_AUTH;
