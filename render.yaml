@@ -8,7 +8,7 @@ services:
     startCommand: npm start
     envVars:
       - key: OPENAI_API_KEY
-        value: <KSGIegmgQSV3GG6cX2sifJm4qrl0Tb5xO9EvHaSoylttx6wOwEp1tX4a0_8hEsUJT3BlbkFJaX1ssdQp2Ywp8uoLbwK__hw8LIKyww5jN-WIACwzPbqCLviss6yrZYjzIEylTEwA>
+        value: <open-api-key>
       - key: CHANNELS
         value: <your-twitch-channel>
       - key: GPT_MODE
@@ -22,7 +22,7 @@ services:
       - key: TWITCH_USER  # https://dev.twitch.tv/console
         value: "Tazcidbot"
       - key: TWITCH_AUTH  # https://twitchapps.com/tmi/
-        value: <your-twitch-auth>
+        value: <twitch-auth>
       - key: SEND_USERNAME
         value: "true"
       - key: ENABLE_TTS
